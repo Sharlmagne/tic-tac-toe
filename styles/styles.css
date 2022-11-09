@@ -1,0 +1,64 @@
+:root {
+    --primary: rgb(140, 0, 255);
+    --primary-2: rgb(82, 0, 154);
+    --primary-3: rgb(50, 5, 87);
+    --secondary: rgb(243, 227, 255);
+    --secondary-2: rgb(230, 201, 252);
+    --secondary-3: rgb(226, 131, 253);
+    --secondary-4: rgb(274, 239, 247);
+    --secondary-5: rgb(215, 187, 247);
+    --white: white;
+    --error: rgb(253, 113, 110);
+    --error-2: rgb(255, 191, 190);
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    text-align: center;
+    background-color: var(--secondary-4);
+}
+
+header {
+    background-color: rgb(148, 45, 255);
+    text-align: center;
+    padding: 2.5rem 5% 2rem 5%;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--white);
+}
+
+header p {
+    color: var(--white);
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--white);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--secondary-3);
+}
+
+.btn:hover {
+    background-color: var(--primary-2);
+    border-color: var(--primary-2);
+}
+
+.btn-alt:hover {
+    background-color: var(--secondary-2);
+    border-color: transparent;
+}
+
+
+

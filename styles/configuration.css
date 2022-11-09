@@ -1,0 +1,69 @@
+#config-overlay h2 {
+    margin: 0.5rem 0;
+}
+
+.form-control {
+    margin: 0.5rem 0;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    font: inherit;
+    border: 1px solid rgb(204, 204, 204);
+    width: 15rem;
+    padding: 0.35rem;
+
+}
+
+.error label {
+    color: var(--error);
+}
+
+.error input{
+    border-color: var(--error);
+    color: var(--error);
+    background-color: var(--error-2);
+}
+
+#game-configuration {
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+}
+
+#game-configuration ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.player-block {
+    background-color: var(--secondary);
+    padding: 1rem;
+    margin: 1rem;
+    width: 50%;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.player-block h3 {
+    color: var(--primary);
+    margin: 0;
+}
+
+.player-block h2 {
+    margin: 1rem 0;
+}
+
+.player-symbol {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-2);
+}
